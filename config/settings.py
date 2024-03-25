@@ -155,3 +155,7 @@ SIMPLE_JWT = {
 }
 
 GOOGLE_MAPS_API_KEY  = config("GOOGLE_MAPS_API_KEY")
+
+CSRF_TRUSTED_ORIGINS = ['https://cf-envision.com.kg']
+
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
